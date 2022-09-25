@@ -1,0 +1,21 @@
+
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <%- include("header"); -%>
+
+    <form class="compose-form" action="/" method="post">
+      <h1 class = "compose-h1">Compose</h1>
+      <label >Title : </label>
+      <input type="text" name="titleName">
+      <label >Post : </label>
+      <textarea name="postText"></textarea>
+      <button type="submit" class ="submitButton">Publish</button>
+      <a href="/" class="cancelButton">Cancel</a>
+    </form>
+  </body>
+  <%- include("footer"); -%>
+</html>

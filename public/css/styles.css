@@ -1,0 +1,176 @@
+/* Header CSS Start */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  float: right;
+  padding: 5px 15px;
+  font-size: 19px;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+}
+
+.navbar {
+  background-color: #f2f2f2;
+  color: #999999;
+  margin: auto;
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-header {
+  display: inline;
+  font-size: 27px;
+  padding-left: 90px;
+}
+
+.navbar-list {
+  float: right;
+  padding-right: 70px;
+}
+
+/* Header CSS END */
+/* Footer CSS Start*/
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  color: #808080;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Footer CSS End*/
+/* Template CSS Start */
+.temp-div {
+  padding: 10px 120px 20px 100px;
+  font-family: "Open Sans", sans-serif;
+  margin: auto;
+}
+
+.temp-h1 {
+  margin: auto;
+  padding: 20px;
+  color: #404040;
+}
+
+.temp-p {
+  margin: auto;
+  padding: 0px 20px;
+  color: #595959;
+}
+
+/* Template CSS End */
+
+/* Compose CSS Start */
+.compose-form {
+  padding: 20px 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.compose-h1 {
+  color: #404040;
+}
+
+label {
+  color: #595959;
+  display: block;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 70%;
+  font-family: "Open Sans", sans-serif;
+  color: #595959;
+}
+
+textarea {
+  width: 70%;
+  height: 20%;
+  font-family: "Open Sans", sans-serif;
+  color: #595959;
+}
+
+.submitButton {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #595959;
+  font-size: 20px;
+  background: #78f07c;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  display: block;
+  margin: 20px 0px;
+}
+
+.submitButton:hover {
+  background: #38e038;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cancelButton {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f05858;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cancelButton:hover {
+  background: #b82e2e;
+  text-decoration: none;
+}
+
+/* Compose CSS Start */
+/* Home */
+.btn {
+  background-color: #404040;
+  border-radius: 60px;
+  text-shadow: 0px 0px 3px #666666;
+  font-family: Arial;
+  color: #fff;
+  font-size: 50px;
+  padding: 5px 20px 5px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 8%;
+  right: 5%;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.home-div{
+  padding: 0px 120px 30px 100px
+}
+.home-h1{
+  padding: 0px 20px 20px;
+}
+.readMe{
+  text-decoration: underline;
+  color: #CF3030;
+}

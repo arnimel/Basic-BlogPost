@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Daily Journel</title>
+    <link rel="icon" href="/favicon.ico">
+  </head>
+  <%- include("tempP"); -%>
+  <body>
+      <% for(var i=0;i<titleArray.length; i++) { %>
+        <div class="home-div temp-div">
+          <h1 class = "home-h1 temp-h1"><%= titleArray[i] %> </h1>
+        <% if((postArray[i]).length < 120) { %>
+          <p class = "home-p temp-p"> <%= postArray[i] %></p>
+        <% } else { %>
+          <p class = "home-p temp-p"> <%= postArray[i] %>...
+            <a class ="readMe" href="/<%= titleArray[i] %>">read more</a>
+          </p>
+        <% } %>
+        </div>
+      <% } %>
+  </body>
+  <div class="button">
+    <a href="/compose" class="btn">+</a>
+  </div>
+</html>
